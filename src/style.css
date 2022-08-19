@@ -1,8 +1,8 @@
 body {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  background: #f7d4d4;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(58, 44, 89, 0.08);
   padding: 40px;
 }
 :root {
@@ -39,7 +39,7 @@ body {
     "Liberation Mono", "Courier New", monospace;
 }
 h1 {
-  color: #878787;
+  color: #6b6767;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -56,7 +56,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: rgb(107, 102, 102);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -73,8 +73,12 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #a2a6ab;
   border-radius: 5px;
+}
+
+.btn {
+  background-color: #dc3545;
 }
 
 .overview {
@@ -83,12 +87,12 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: rgb(53, 49, 49);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
